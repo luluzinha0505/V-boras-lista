@@ -1,1 +1,94 @@
-/* Add styles here */
+body {
+    background:#1C1C1C;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #C0C0C0;
+
+}
+h1{
+    text-align: center;
+     font-family: 'Playfair Display', serif;
+     font-size: 3em;
+    color: #66CDAA;
+    margin-bottom: 40px;
+}
+
+h2{
+    color: #6B8E23;
+    margin-top: 40px;
+    text-align: center;
+}
+.livros{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+gap: 20px;
+}
+
+.livros li {
+     width: 180px;
+     text-align: center;
+     box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+     transition: transform 0.2s;
+     padding: 10px;
+}
+
+.livros li :hover {
+transform: scale(1.05);
+
+.livros img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.livros p {
+    color: #fff;
+    font-size: 1em;
+    margin: 0;
+}
+
+.temas {
+    display: center;
+    flex-wrap: wrap;
+    list-style: none;
+   padding: 0;;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+}
+ .temas li{
+    padding: 20px;
+    border-radius: 12px;
+    font-weight:bold ;
+    text-align: center;
+    width: 160px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    border: 3px solid;
+    color: white;
+    font-weight: bold;
+    
+ }
+
+ .tema1 {
+     background-color: #1e620a;
+     border-color: #FF69B4;}
+.tema2 {
+     background-color: #8B0000;
+     border-color: #FFA500; }
+.tema3 {
+     background-color: #FFB6C1; 
+     color: #000;
+     border-color: #FFFF00;}
+.tema4 { 
+    background-color: #FF7F50;
+    border-color: #00FF7F; }
+.tema5 { 
+    background-color: #9400D3;
+    border-color: #00BFFF; }
+
+}
